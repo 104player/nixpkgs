@@ -11684,6 +11684,8 @@ let
 
   icestorm = callPackage ../applications/science/electronics/icestorm { };  
   
+  arachne-pnr = callPackage ../applications/science/electronics/arachne-pnr { };  
+  
   photivo = callPackage ../applications/graphics/photivo { };
 
   wavesurfer = callPackage ../applications/misc/audio/wavesurfer { };

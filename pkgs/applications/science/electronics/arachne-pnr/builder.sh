@@ -1,6 +1,18 @@
+
+
+
 source $stdenv/setup
 
 export DESTDIR=$out
+
+ICEPACK=`command -v icepack`
+echo ICEPACK $ICEPACK
+
+ICEBIN=`dirname $ICEPACK`
+echo ICEBIN $ICEBIN
+
+export ICEBOX=$ICEBIN/../share/icebox
+echo ICEBOX $ICEBOX
 
 #echo SRC $src
 cp -r $src ./src
@@ -15,3 +27,5 @@ cd src
 
 make -e -j$(nproc)
 make -e install
+
+
