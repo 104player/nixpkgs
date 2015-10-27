@@ -11682,6 +11682,8 @@ let
 
   gjay = callPackage ../applications/audio/gjay { };
 
+  icestorm = callPackage ../applications/science/electronics/icestorm { };  
+  
   photivo = callPackage ../applications/graphics/photivo { };
 
   wavesurfer = callPackage ../applications/misc/audio/wavesurfer { };
