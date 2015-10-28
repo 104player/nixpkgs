@@ -11682,10 +11682,6 @@ let
 
   gjay = callPackage ../applications/audio/gjay { };
 
-  icestorm = callPackage ../applications/science/electronics/icestorm { };  
-  
-  arachne-pnr = callPackage ../applications/science/electronics/arachne-pnr { };  
-  
   photivo = callPackage ../applications/graphics/photivo { };
 
   wavesurfer = callPackage ../applications/misc/audio/wavesurfer { };
@@ -14924,6 +14920,12 @@ let
 
   xoscope = callPackage ../applications/science/electronics/xoscope { };
 
+  icestorm = callPackage ../applications/science/electronics/icestorm { };  
+  
+  arachne-pnr = callPackage ../applications/science/electronics/arachne-pnr { };  
+    
+  yosys = callPackage ../applications/science/electronics/yosys { };  
+  
 
   ### SCIENCE / MATH
 
